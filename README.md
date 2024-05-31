@@ -1,29 +1,43 @@
-- 👋 Hi, I’m @Kiranhackers
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# CamPhish
+Grab cam shots from target's phone front camera or PC webcam just sending a link.
+![cheese](https://techchip.net/wp-content/uploads/2020/04/camphish.jpg)
 
-<!---
-Kiranhackers/Kiranhackers is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# What is CamPhish?
+<p>CamPhish is techniques to take cam shots of target's phone fornt camera or PC webcam. CamPhish Hosts a fake website on in built PHP server and uses ngrok & serveo to generate a link which we will forward to the target, which can be used on over internet. website asks for camera permission and if the target allows it, this tool grab camshots of target's device</p>
 
-# 🚧 🚧 🚧
-## react-native-camera is deprecated.
+## Features
+<p>In this tool I added two automatic webpage templates for engaged target on webpage to get more picture of cam</p>
+<ul>
+  <li>Festival Wishing</li>
+  <li>Live YouTube TV</li>
+</ul>
+<p>simply enter festival name or youtube's video ID</p>
 
-Due to the lack of maintainers and increased code complexity, react-native-camera is now deprecated in favor of [react-native-vision-camera](https://github.com/Kiranhackers/react-native-vision-camera).
+## This Tool Tested On :
+<ul>
+  <li>Kali Linux</li>
+  <li>Termux</li>
+  <li>MacOS</li>
+  <li>Ubuntu</li>
+  <li>Perrot Sec OS</li>
+</ul>
 
-VisionCamera offers new APIs, better performance, improved stability and more features.
-It is actively maintained by [**@Kiranhackers**](https://github.com/Kiranhackers) and used in many production apps.
+# Installing and requirements
+<p>This tool require PHP for webserver, SSH or serveo link. First run following command on your terminal</p>
 
-You can support the development of VisionCamera by [sponsoring **@Kiranhackers* on GitHub](https://github.com/sponsors/Kiranhackers).
+```
+apt-get -y install php openssh git wget
+```
 
-<br />
-<br />
+## Installing (Kali Linux/Termux):
 
-> You can find the old code of react-native-camera [here](https://github.com/react-native-camera/react-native-camera/tree/master).
-
-> See [this issue](https://github.com/react-native-community/react-native-camera/issues/3000) for more details.
+```
+git clone https://github.com/baradatipu/CamPhish
+cd CamPhish
+bash camphish.sh
+```
+### Video Demo
+[![How to control android camera](https://img.youtube.com/vi/G_nNHrWwCOM/0.jpg)](https://www.youtube.com/watch?v=G_nNHrWwCOM)
+#### For More Video subcribe <a href="http://youtube.com/techchipnet">TechChip YouTube Channel</a>
+<p>CamPhish is created to help in penetration testing and it's not responsible for any misuse or illegal purposes.</p>
+<p>CamPhish is inspired by https://github.com/thelinuxchoice/ Big thanks to @thelinuxchoice</p>
